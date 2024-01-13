@@ -1,0 +1,79 @@
+/* work sans font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* common-start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.wrap {
+  width: 85%;
+  margin: 30px auto;
+}
+.common-heading {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.common-gray {
+  color: #727272;
+  font-size: 1rem;
+}
+.common-button {
+  padding: 15px 25px;
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+/* common-start */
+/* header-start */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+  margin-right: 25px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: var(--Dark-02, #424242);
+  font-size: 18px;
+  font-weight: 500;
+}
+.brand-new {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+.brand-new h1 {
+  color: #131313;
+  font-size: 64px;
+  font-weight: 700;
+}
+.brand-new p {
+  margin: 10px 0;
+}
+header img {
+  width: 100%;
+}
+/* header-end */
